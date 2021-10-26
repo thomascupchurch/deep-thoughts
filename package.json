@@ -1,0 +1,22 @@
+{
+  "name": "deep-thoughts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomascupchurch/deep-thoughts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomascupchurch/deep-thoughts/issues"
+  },
+  "homepage": "https://github.com/thomascupchurch/deep-thoughts#readme"
+}
