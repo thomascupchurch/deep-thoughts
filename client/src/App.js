@@ -7,8 +7,13 @@ import {
 } from "@apollo/client";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import NoMatch from "./pages/NoMatch";
+import SingleThought from "./pages/singleThought";
+import Profile from "./pages/Profile";
 import Home from "./pages/Home";
+import Signup from "./pages/Signup";
 
 const httpLink = createHttpLink({
   uri: "/graphql",
