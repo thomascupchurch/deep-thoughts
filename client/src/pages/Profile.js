@@ -8,6 +8,7 @@ import { QUERY_USER, QUERY_ME } from "../utils/queries";
 
 import FriendList from "../components/FriendList";
 import Auth from "../utils/auth";
+import ThoughtForm from "../components/ThoughtForm";
 
 const Profile = () => {
   const [addFriend] = useMutation(ADD_FRIEND);
@@ -75,6 +76,7 @@ const Profile = () => {
           />
         </div>
       </div>
+      <div className="mb-3">{!userParam && <ThoughtForm />}</div>
     </div>
   );
 };
